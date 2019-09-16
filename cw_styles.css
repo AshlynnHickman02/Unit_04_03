@@ -95,22 +95,37 @@ nav#outline > ol{
    margin-right: 5px;
    list-style-type: upper-roman;
 }
-nav#outline > ol{
-   
+nav#outline:visited{
+   color: rgb(101, 101, 101);
+}
+nav#outline:hover{
+   color: rgb(97, 97, 211);
+   font-variant: underline;
+}
+
+/* Section Styles */
+section{
+   background-color: rgb(220, 220, 220);
+}
+section > header > h1{
+   font-size: 2.2em;
+   padding-left: 10px;
 }
 
 
-
-
-/* Section Styles */
-
-
-
-
 /* Article Styles */
-
-
-
+article > h2{
+   font-size: 1.4em;
+}
+article > p:first-of-type::first-letter{
+   font-size: 2em;
+   vertical-align: baseline;
+}  
 
 /* Aside Styles */
-
+aside{
+   font-size: 0.9em;
+}
+aside > h1{
+   font-size: 1.4em;
+}
